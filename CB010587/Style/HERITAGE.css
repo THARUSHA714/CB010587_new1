@@ -1,0 +1,126 @@
+.topnav{
+    overflow: hidden;
+    background-color:rgba(53, 53, 53, 0.486);
+    width: 100%;
+    min-width: 1050px;
+}/*The Top navigation bar*/
+
+.topnav a {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding: 17px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}/*Adding Styles to the Navigation bar*/
+
+.topnav a:hover{
+    background-color:rgba(255, 124, 109, 0.64);
+    color: black;
+}/*Hovering effect*/
+
+.topnav a:active{
+    background-color: rgb(255, 72, 72);
+    color: rgb(0, 0, 0);
+}/*Active effect*/
+
+.topnav>.main{
+    background-color: rgba(255, 136, 123, 0.818);
+}/*The current page*/
+
+.container{
+    display: grid;
+    background-color:rgba(27, 27, 27, 0.603); 
+    font-size: 20px;
+    padding: 2em;
+    color: white;
+    grid-template-rows: auto auto auto auto;
+    width: 94.5%;
+    max-width: 1780;
+    min-width: 970px;
+}/*The main body*/
+
+.top_pic{
+    background-color: rgba(53, 53, 53, 0.486);
+    width: 100%;
+    min-width: 975px;
+}/*Logo and cover image*/
+
+.head{
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+}/*The main topic*/
+
+.info{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}/*What to do part*/
+
+.name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}/*The place name*/
+
+.pic1:hover{
+    opacity: 0.7;
+}/*Adding effect when hovering*/
+
+.pic2:hover{
+    opacity: 0.7;
+}/*Adding effect when hovering*/
+
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}/*The background*/
+
+.foot{
+    background-color:rgba(0, 0, 0, 0.81); 
+    font-size: 20px;
+    padding: 2em;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 94.5%;
+    min-width: 975px;
+    overflow: hidden;
+}/*The footer*/
+
+.foot a{
+    color: rgba(255, 136, 123, 0.818);
+    width: 94.5%;
+}/*The links*/
+
+.foot a:hover{
+    color: white;
+    width: 94.5%;
+}/*The hover effect*/
+
+.bot{
+    color: rgba(255, 136, 123, 0.818);
+    width: 94.5%;
+}/*The contacts*/
+
+.picpic{
+    width: 109%;
+    max-width: 3000px;
+}/*The child element*/
+
+.pic1{
+    min-width: 600pxpx;
+    max-width: 1780px;
+    width: 100%;
+}/*The 1st picture*/
+
+.pic2{
+    min-width: 500px;
+    max-width: 1780px;
+    width: 100%;
+}/*The 2nd picture*/

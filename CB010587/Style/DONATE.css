@@ -1,0 +1,191 @@
+.topnav{
+    overflow: hidden;
+    background-color:rgba(53, 53, 53, 0.486);
+    width: 100%;
+    min-width: 1050px;
+}/*The Top navigation bar*/
+
+.topnav a {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding: 17px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}/*Adding Styles to the Navigation bar*/
+
+.topnav a:hover{
+    background-color:rgba(255, 124, 109, 0.64);
+    color: black;
+}/*Hovering effect*/
+
+.topnav a:active{
+    background-color: rgb(255, 72, 72);
+    color: rgb(0, 0, 0);
+}/*Active effect*/
+
+.topnav>.main{
+    background-color: rgba(255, 136, 123, 0.818);
+}/*The current page*/
+
+.container{
+    display: grid;
+    background-color:rgba(27, 27, 27, 0.603); 
+    font-size: 20px;
+    padding: 2em;
+    color: white;
+    grid-template-rows: auto auto auto auto;
+    width: 94.5%;
+    max-width: 1780px;
+    min-width: 970px;
+}/*The main body*/
+
+.photos{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1780px;
+}/*The main 3 images*/
+
+.head{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}/*The main topic*/
+
+.info{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}/*The infomation*/
+
+.form{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(27, 27, 27, 0.715);
+    padding: 20px;
+    border: 2px solid rgba(255, 136, 123, 0.818);
+    border-radius: 15px;;
+}/*The donation form*/
+
+.tree{
+    display: flex;
+    justify-content: space-around;
+}/*The images*/
+
+.word{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+}/*The info*/
+
+.merc{
+    display: flex;
+    justify-content: space-around;
+}/*The parent in merchandise part*/
+
+.one{
+    color: white;
+    background-color: rgba(27, 27, 27, 0.715);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: solid rgba(255, 136, 123, 0.818);
+}/*The purchase button*/
+
+.one a{
+    background-color:rgba(27, 27, 27, 0.715) ;
+    text-decoration: none;
+}/*The link*/
+
+.one a:hover{
+    color: rgba(255, 136, 123, 0.818);
+}/*The hover effect*/
+
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}/*The background*/
+
+.top_pic{
+    background-color: rgba(53, 53, 53, 0.486);
+    width: 100%;
+    min-width: 975px;
+}/*Logo and cover image*/
+
+.two{
+    background-color: rgba(27, 27, 27, 0.715);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(255, 136, 123, 0.818);
+    background-size: 400px;
+}/*The items*/
+
+.foot{
+    background-color:rgba(0, 0, 0, 0.81); 
+    font-size: 20px;
+    padding: 2em;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 94.5%;
+    min-width: 975px;
+    overflow: hidden;
+}/*The footer*/
+
+.foot a{
+    color: rgba(255, 136, 123, 0.818);
+    width: 94.5%;
+}/*The links*/
+
+.foot a:hover{
+    color: white;
+    width: 94.5%;
+}/*The hover effect*/
+
+.bot{
+    color: rgba(255, 136, 123, 0.818);
+    width: 94.5%;
+}/*The contacts*/
+
+.picpic{
+    width: 109%;
+    max-width: 3000px;
+}/*The child element*/
+
+.qqq{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}/*Purchase Button*/
+
+input:focus, textarea:focus {
+    background   : lightgray;
+    outline      : none;
+  }
+  input:invalid {
+      box-shadow: 0 0 1px 1px red;
+} /*Form validation*/
+
+.donout{
+    height: auto;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(27, 27, 27, 0.715);
+    border-radius: 15px;
+}/*Donation status*/
+
+.bill{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.81);
+    
+}/*Tempery bill*/
+
+.totbill{
+    height: auto;
+    font-size: 30px;
+}/*Total bill*/
+
+.foott{
+    border: 0;
+}/*Footer area*/
